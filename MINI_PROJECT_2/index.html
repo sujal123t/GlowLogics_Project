@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStream | Online Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">BookStream</div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by title or author...">
+        </div>
+        <div class="nav-links">
+            <a href="#" onclick="showPage('home')">Home</a>
+            <a href="#" onclick="showPage('cart')">Cart (<span id="cartCount">0</span>)</a>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        </main>
+
+    <template id="book-card-template">
+        <div class="book-card">
+            <div class="book-info">
+                <h3 class="book-title"></h3>
+                <p class="book-author"></p>
+                <p class="book-price"></p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>

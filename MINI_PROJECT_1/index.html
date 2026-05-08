@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujal Gurunath Talekar | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark"> <header>
+        <nav class="navbar">
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="btn-small">☀️ Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero fade-in-down">
+            <div class="hero-content">
+                <img src="profile.jpg" alt="Sujal Talekar" class="profile-pic">
+                <p class="btn-small">Sujal G Talekar</p>
+                <h1 class="glitch">Hello, I'm <span class="accent">Sujal</span></h1>
+                <p class="subtitle">B.E. in Computer Science & Engineering | Java Developer</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn-primary animate-btn">Get In Touch</a>
+                    <a href="https://drive.google.com/file/d/13neA3usUet4zsxL_C2ryRu3ZDK7tg5bY/view?usp=drive_link" class="btn-secondary">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container reveal">
+                <h2>About Me</h2>
+                <p class="about-summary">I am a passionate Computer Science student at Canara Engineering College, dedicated to building efficient and scalable software solutions. I enjoy solving complex problems and am a fast learner.</p>
+                
+                <div class="about-grid">
+                    <div class="info-card">
+                        <h3>Education</h3>
+                        <ul class="timeline">
+                            <li>
+                                <h4>B.E. in Computer Science & Engineering (2026)</h4>
+                                <p>Canara Engineering College | CGPA: 7.72</p>
+                            </li>
+                            <li>
+                                <h4>Pre-University (2022)</h4>
+                                <p>Government PU College | Percentage: 61.83%</p>
+                            </li>
+                            <li>
+                                <h4>High School (2020)</h4>
+                                <p>Sacred Heart Convent high school | Percentage: 68.48%</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-container">
+                            <span class="skill-pill">HTML</span>
+                            <span class="skill-pill">CSS</span>
+                            <span class="skill-pill">Java</span>
+                            <span class="skill-pill">C</span>
+                            <span class="skill-pill">Data Structures</span>
+                            <span class="skill-pill">DBMS</span>
+                            <span class="skill-pill">OOPS</span>
+                            <span class="skill-pill">GIT & GITHUB</span>
+                        </div>
+                        <h3 class="soft-skills-title">Certifications</h3>
+                        <ul class="cert-list">
+                            <li>Java Training - Spoken Tutorial</li>
+                            <li>Ruby Training - Spoken Tutorial</li>
+                            <li>RDBMS PostgrelSQL Training - Spoken Tutorial</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container reveal">
+                <h2>Featured Project</h2>
+                <div class="project-spotlight">
+                    <img src="sar.webp" alt="SAR Project" class="project-img">
+                    <div class="project-details">
+                        <h3>SAR image Colorization for comprehensive insights</h3>
+                        <p>Developed a deep learning-based system to colorize grayscale Synthetic Aperture Radar (SAR) images, enhancing interpretability for non-expert users. Implemented preprocessing techniques (normalization, noise filtering) and built a responsive web interface using TypeScript, Next.js, and Tailwind CSS.</p>
+                        <div class="project-tech">
+                            <span>Python</span> <span>PyTorch/TensorFlow</span> <span>TypeScript</span> <span>Next.js</span> <span>Tailwind CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#" class="btn-small">Live Demo</a>
+                            <a href="#" class="btn-small btn-outline">GitHub</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="extras">
+            <div class="container reveal">
+                <div class="about-grid">
+                    <div class="info-card">
+                        <h3>Achievements</h3>
+                        <ul class="check-list">
+                            <li>First Place: Penalty Shootout (Akkarati 2023)</li>
+                            <li>First Place: Sketch Competition (Karwar)</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h3>Additional Info</h3>
+                        <p><strong>Languages:</strong> Kannada, Konkani, English, Hindi, Marathi</p>
+                        <p><strong>Interests:</strong> Sketching, Gaming, Football, Travelling</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container reveal">
+                <h2>Contact Me</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p>Feel free to reach out via the form or contact directly:</p>
+                        <a href="mailto:sujaltalekarmi123@gmail.com" class="accent">sujaltalekarmi123@gmail.com</a>
+                        <p>+91 7619627982</p>
+                    </div>
+                    <form id="contact-form">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn-primary animate-btn">Send Message</button>
+                        <p id="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sujal-talekar-1b791b262/">LinkedIn</a>
+            <a href="https://github.com/sujal123t">GitHub</p>
+        </div>
+        <p>&copy; 2026 Sujal Gurunath Talekar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
