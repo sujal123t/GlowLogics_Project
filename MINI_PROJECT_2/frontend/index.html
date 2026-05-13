@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookVerse</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+  <nav>
+    <h1>📚 BookVerse</h1>
+
+    <input type="text" id="searchInput" placeholder="Search books...">
+
+    <a href="cart.html" class="cart-btn">
+      Cart 🛒 <span id="cart-count">0</span>
+    </a>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Discover Your Next Favorite Book</h2>
+      <p>Modern online bookstore with animated UI</p>
+      <button onclick="scrollToBooks()">Explore Books</button>
+    </div>
+  </section>
+
+  <section class="books-section" id="books-section">
+    <h2 class="section-title">Trending Books</h2>
+
+    <div class="books-container" id="books-container">
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
