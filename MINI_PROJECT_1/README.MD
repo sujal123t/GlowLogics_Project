@@ -213,8 +213,6 @@ Open with Live Server
 
 ---
 
-# 👨‍💻 Author
-
 Developed by Sujal Gurunath Talekar as a modern personal portfolio website project.
 
 ---

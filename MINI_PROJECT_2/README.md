@@ -220,8 +220,6 @@ Backend returns manga data as JSON using Spring Boot REST API.
 
 ---
 
-# 👨‍💻 Author
-
 Developed as a Full Stack Manga Bookstore Project using Java Spring Boot and Frontend Technologies.
 
 ---
