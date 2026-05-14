@@ -213,17 +213,6 @@ Open with Live Server
 
 ---
 
-# 🔮 Future Improvements
-
-- Add backend integration
-- Add email sending functionality
-- Add project filtering
-- Add blog section
-- Add typing animation
-- Add particle background effects
-
----
-
 # 👨‍💻 Author
 
 Developed by Sujal Gurunath Talekar as a modern personal portfolio website project.
